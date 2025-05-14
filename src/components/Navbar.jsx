@@ -121,7 +121,7 @@ export const Navbar = ({ menuopen, setmenuopen }) => {
               </a>
             ))}
             <a
-              href="/src/assets/yugasairesume.pdf"
+              href="/public/yugasairesume.pdf"
               className="px-4 py-2 bg-green-600 hover:bg-green-500 text-white rounded-md transition-all duration-300 font-medium text-sm uppercase tracking-wide shadow-lg shadow-green-500/20 hover:shadow-green-500/40"
               target="_blank"
               rel="noopener noreferrer"
@@ -157,7 +157,7 @@ export const Navbar = ({ menuopen, setmenuopen }) => {
             </a>
           ))}
           <a
-            href="/src/assets/yugasairesume.pdf"
+            href="/public/yugasairesume.pdf"
             className="px-8 py-3 mt-4 bg-green-600 hover:bg-green-500 text-white rounded-md transition-all duration-300 font-medium text-lg uppercase tracking-wide"
             target="_blank"
             rel="noopener noreferrer"
