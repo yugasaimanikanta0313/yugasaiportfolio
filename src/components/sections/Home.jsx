@@ -50,37 +50,42 @@ export const Home = () => {
       <Revealonscroll>
         <div className="text-center z-10 px-4 max-w-4xl mx-auto">
           <div className="inline-block mb-4 rounded-full bg-green-500/10 px-3 py-1 text-sm text-green-400 backdrop-blur-sm border border-green-500/20">
-            Welcome to my portfolio
+          
           </div>
-
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-emerald-400 bg-clip-text text-transparent leading-tight">
-            Hi, I am YugasaiManikanta.
-          </h1>
-
-          <div className="text-xl md:text-2xl font-medium mb-6 text-gray-300 h-12">
-            <TypeAnimation
-              sequence={[
-                "Full-Stack Developer",
-                2000,
-                "Engineering Student",
-                2000,
-                "Problem Solver",
-                2000,
-                "Tech Enthusiast",
-                2000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Number.POSITIVE_INFINITY}
-            />
+            <div className="inline-block mb-4 rounded-full bg-green-500/10 px-3 py-1 text-sm text-green-400 backdrop-blur-sm border border-green-500/20">
+          
           </div>
+          <br></br>
+          <br></br>
+          <br></br>
 
-          <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">
-            I develop modern web applications with a focus on clean, efficient code and user-friendly design. With
-            experience across the full technology stack, I build scalable solutions and ensure smooth deployment and
-            management in cloud environments. I also work with intelligent systems, including building agents and
-            working with large language models to address real-world challenges.
-          </p>
+         <div className="w-full px-4 sm:px-6 md:px-8 max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto text-center z-10">
+  <div className="inline-block mb-4 rounded-full bg-green-500/10 px-3 py-1 text-sm text-green-400 backdrop-blur-sm border border-green-500/20">
+    Welcome to my portfolio
+  </div>
+
+  <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 to-emerald-400 bg-clip-text text-transparent leading-tight break-words">
+    Hi, I am YugasaiManikanta.
+  </h1>
+
+  <div className="text-lg sm:text-xl md:text-2xl font-medium mb-6 text-gray-300 h-12">
+    <TypeAnimation
+      sequence={[
+        "Full-Stack Developer", 2000,
+        "Engineering Student", 2000,
+        "Problem Solver", 2000,
+        "Tech Enthusiast", 2000,
+      ]}
+      wrapper="span"
+      speed={50}
+      repeat={Infinity}
+    />
+  </div>
+
+  <p className="text-gray-400 text-base sm:text-lg mb-8 leading-relaxed">
+    I develop modern web applications with a focus on clean, efficient code and user-friendly design...
+  </p>
+</div>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
             <a
